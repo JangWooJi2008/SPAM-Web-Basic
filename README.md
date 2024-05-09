@@ -78,3 +78,44 @@ let 변수 = 변수값
 console.log("내용",변수값,"내용");
 
 ### **내용과 내용을 이어줄 수 있게 변수값 앞뒤에 , 붙이기**
+let num2 = 10;
+num += 1;
+// num = num + 1
+
+num++;
+//실행이 된 후 증감
+++num;
+//증가 후 실행
+
+num ** 2;
+//제곰
+
+num + 1;
+num - 1;
+num * 1;
+num / 1;
+num % 1;
+
+if 문
+1. let a = 'n'
+2; if(a<0)
+    {
+        console.log("");
+    }
+3. else if{}
+    else{
+        if{}
+        else{}
+    }
+#### *둘다 똑같이 사용할수 있지만 else if가 메모리 효율이 좋음.
+
+switch문
+1. let a = 'n'
+2. switch(a){
+    case 1 :
+     console.log(");
+     break;
+}
+
+break; 반복을 멈주게함
+continue; 반복을 계속하게함
