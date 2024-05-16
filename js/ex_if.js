@@ -20,3 +20,12 @@ if(name == "Mike" && age > 19){
 else{
     console.log("다음에 쥬글거임")
 }
+
+let isAdult = age > 19;
+if(isAdult){
+    console.log("성인입니다.");
+}
+
+if(!isAdult){
+    console.log("미성년자입니다.");
+}

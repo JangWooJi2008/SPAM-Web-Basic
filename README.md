@@ -119,3 +119,45 @@ switch문
 
 break; 반복을 멈주게함
 continue; 반복을 계속하게함
+
+## 데이터 형식
+### ` `
+변수 문장출력 형식
+### $
+변수출력할 때 앞에 붙여사용
+
+## 반복문
+### while문
+let i = 0;
+
+while (i<10) {
+    console.log(i);
+    i++ <- 증감식
+} i가 9가 될때까지 증감식 반복
+
+### do_while문
+let i = 0;
+
+do{
+    console.log(i);
+    i++;
+}
+while(i > 10)
+
+console.log(i);
+
+### for문
+let j;
+
+for(let i = 0; i < 10; i++) {
+    console.log(i);
+}
+while에 있는거 괄호로 한줄로 묶은거
+;(세미클론)으로 구분
+i를 0으로 초기화 하고 i가 9가 될때까지 증감식 반복
+### 중첩 for문
+for(let i = 2; i <= 9; i++) {
+    for(let j = 1; j <= 9; j++) {
+        console.log(`${i} * ${j} = ${i*j}`);
+    }
+}상위 for문부터 1번실행 그뒤에 하위 for문 실행 그뒤로는 하위 for문의 실행이 끝나면 상위 for문이 1번실행 그뒤로는 상위와 하위for문의 실행이 끝날때까지 반복
